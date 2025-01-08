@@ -1,0 +1,10 @@
+.codegpt
+node_modules/
+/test-results/
+/playwright-report/
+/blob-report/
+/playwright/.cache/
+data/tmp
+.DS_Store
+package-lock.json
+.codegpt

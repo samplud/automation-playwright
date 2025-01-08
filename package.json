@@ -1,0 +1,31 @@
+{
+  "name": "automation-palywright",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "demo": "npx playwright test tests/orange_hrm/** --project chromium",
+    "demo-ui": "npx playwright test tests/orange_hrm/** --ui --project chromium --timeout 30000",
+    "demo-fast": "npx playwright test tests/orange_hrm/** --workers=4 --timeout 30000",
+    "notify": "node helpers/telegramWebhook.js",
+    "reqres": "npx playwright test tests/reqres/**"
+  },
+  "keywords": [],
+  "author": "Budi Wiatna",
+  "license": "ISC",
+  "devDependencies": {
+    "@faker-js/faker": "^8.4.1",
+    "@playwright/test": "^1.45.3",
+    "@types/jest": "^29.5.12",
+    "@types/node": "^20.14.10",
+    "supertest": "^7.0.0"
+  },
+  "dependencies": {
+    "crypto-js": "^4.2.0",
+    "date-fns": "^3.6.0",
+    "dotenv": "^16.4.5",
+    "moment": "^2.30.1",
+    "playwright": "^1.46.1",
+    "puppeteer": "^22.14.0"
+  }
+}

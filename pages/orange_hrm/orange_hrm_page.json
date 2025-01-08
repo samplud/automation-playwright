@@ -1,0 +1,18 @@
+{
+   "loginPage": {
+      "txtUsername": "[name='username']",
+      "txtPassword": "[name='password']",
+      "btnSubmit": "[type='submit']",
+      "lblInvalidCredential": "[class='oxd-text oxd-text--p oxd-alert-content-text']",
+      "lblRequired": "[class='oxd-text oxd-text--span oxd-input-field-error-message oxd-input-group__message']"
+    },
+    "dashboardPage": {
+      "lblProfileName": "[class='oxd-userdropdown-name']",
+      "lblDashboard": "[class='oxd-topbar-header-breadcrumb']",
+      "quickLaunchAssignLeave": "button[title='Assign Leave']"
+    },
+    "assignLeave": {
+      "lblAssignLeave": "[class='oxd-text oxd-text--h6 orangehrm-main-title']"
+    }
+  } 
+  
