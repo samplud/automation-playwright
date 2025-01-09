@@ -33,6 +33,7 @@ You can specify the command that you want to run from package.json file.
 $ npm run demo-ui                                | to run all tests with launch browser
 $ npm run demo -- -e TAGS='@tagNameScenario'     | to run test with specific tag / specific repo
 $ npm run demo                                   | to run all tests headless
+$ npx playwright show-report                     | to open last HTML report
 ```
 
 # Thank you

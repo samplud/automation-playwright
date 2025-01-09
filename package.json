@@ -7,7 +7,6 @@
     "demo": "npx playwright test tests/orange_hrm/** --project chromium",
     "demo-ui": "npx playwright test tests/orange_hrm/** --ui --project chromium --timeout 30000",
     "demo-fast": "npx playwright test tests/orange_hrm/** --workers=4 --timeout 30000",
-    "notify": "node helpers/telegramWebhook.js",
     "reqres": "npx playwright test tests/reqres/**"
   },
   "keywords": [],
