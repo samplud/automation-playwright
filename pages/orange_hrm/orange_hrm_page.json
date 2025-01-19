@@ -9,7 +9,13 @@
     "dashboardPage": {
       "lblProfileName": "[class='oxd-userdropdown-name']",
       "lblDashboard": "[class='oxd-topbar-header-breadcrumb']",
-      "quickLaunchAssignLeave": "button[title='Assign Leave']"
+      "quickLaunchAssignLeave": "button[title='Assign Leave']",
+      "btnAddEMployee": "[class='oxd-button oxd-button--medium oxd-button--secondary']",
+      "txtFirstName": "[name='firstName']",
+      "txtMiddleName": "[name='middleName']",
+      "txtlastName": "[name='lastName']",
+      "btnSubmitPIM": "[type='submit']",
+      "lblProfilePIM": "[class='orangehrm-edit-employee-name']"
     },
     "assignLeave": {
       "lblAssignLeave": "[class='oxd-text oxd-text--h6 orangehrm-main-title']"
